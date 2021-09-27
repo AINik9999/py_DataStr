@@ -197,3 +197,5 @@ movies = [(" Rose Capablanca",1940),("Bobby Fischer",1995),("Antony Polyakov",19
 m_b4 =[title for (title,year) in movies if year <1990]
 m_b4
 m_af = [title for (title,year) in movies if year>2000]
+# Can also return the name with year after 2000
+m_g = [(title,year) for (title,year) in movies if year > 2000 ]
